@@ -72,12 +72,12 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     
     @IBAction func submit(_ sender: UIButton) {
         addFoundItem()
-        let alert = UIAlertController(title: "Alert", message: "Message", preferredStyle: UIAlertControllerStyle.alert)
+        let alert = UIAlertController(title: "Confirmation", message: "Thank you for reporting an item! We have received your submission", preferredStyle: UIAlertControllerStyle.alert)
         alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { action in
             switch action.style{
             case .default:
                 print("default")
-                self.whoFoundUserText.text = ""
+                //self.whoFoundUserText.text = ""
                 self.dateFoundUserText.text = ""
                 self.whereFoundUserText.text = ""
                 self.descriptionUserText.text = ""

@@ -9,47 +9,36 @@
 /* Begin PBXBuildFile section */
 		64517FA675E2CE6E5A88BF80 /* Pods_testphotostocloudUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BA3F5C862DECE74152E09F1 /* Pods_testphotostocloudUITests.framework */; };
 		6CB9E99E4DF1E8E2ECBDDCCE /* Pods_testphotostocloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85F2235582755417EB57511F /* Pods_testphotostocloud.framework */; };
-		891A87DB206D433F00EADC89 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891A87DA206D433F00EADC89 /* FeedViewController.swift */; };
-		893DE3BB208A9082003025BE /* ViewControllerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893DE3BA208A9082003025BE /* ViewControllerTableViewCell.swift */; };
-		893DE3BF208A956F003025BE /* LostAndFoundModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893DE3BE208A956E003025BE /* LostAndFoundModel.swift */; };
-		894BB09A2064290D00FBFF06 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894BB0992064290D00FBFF06 /* SignInViewController.swift */; };
 		896FDA432069546D00457B3E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 896FDA422069546D00457B3E /* .gitignore */; };
 		89A07355205B0D4400DCACAC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 89A07354205B0D4400DCACAC /* GoogleService-Info.plist */; };
 		89A0735720606A0100DCACAC /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A0735620606A0100DCACAC /* StorageService.swift */; };
-		89A073592062CDB000DCACAC /* PhotoUploadDownload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A073582062CDB000DCACAC /* PhotoUploadDownload.swift */; };
 		89D00AA72049B2810018EA4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D00AA62049B2810018EA4A /* AppDelegate.swift */; };
-		89D00AA92049B2810018EA4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D00AA82049B2810018EA4A /* ViewController.swift */; };
 		89D00AAC2049B2810018EA4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89D00AAA2049B2810018EA4A /* Main.storyboard */; };
 		89D00AAE2049B2810018EA4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89D00AAD2049B2810018EA4A /* Assets.xcassets */; };
 		89D00AB12049B2810018EA4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89D00AAF2049B2810018EA4A /* LaunchScreen.storyboard */; };
 		89D00ABC2049B2820018EA4A /* testphotostocloudTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D00ABB2049B2820018EA4A /* testphotostocloudTests.swift */; };
 		89D00AC72049B2820018EA4A /* testphotostocloudUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D00AC62049B2820018EA4A /* testphotostocloudUITests.swift */; };
-		BCD0D1AF20A5FA0300C2A615 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD0D19F20A5FA0300C2A615 /* AppDelegate.swift */; };
 		BCD0D1B020A5FA0300C2A615 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCD0D1A020A5FA0300C2A615 /* Assets.xcassets */; };
 		BCD0D1B120A5FA0300C2A615 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCD0D1A120A5FA0300C2A615 /* LaunchScreen.storyboard */; };
 		BCD0D1B220A5FA0300C2A615 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCD0D1A320A5FA0300C2A615 /* Main.storyboard */; };
 		BCD0D1B320A5FA0300C2A615 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD0D1A520A5FA0300C2A615 /* FeedViewController.swift */; };
 		BCD0D1B420A5FA0300C2A615 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BCD0D1A620A5FA0300C2A615 /* GoogleService-Info.plist */; };
 		BCD0D1B520A5FA0300C2A615 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BCD0D1A720A5FA0300C2A615 /* Info.plist */; };
-		BCD0D1B620A5FA0300C2A615 /* LostAndFoundModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD0D1A820A5FA0300C2A615 /* LostAndFoundModel.swift */; };
-		BCD0D1B720A5FA0300C2A615 /* PhotoUploadDownload.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD0D1A920A5FA0300C2A615 /* PhotoUploadDownload.swift */; };
-		BCD0D1B820A5FA0300C2A615 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD0D1AB20A5FA0300C2A615 /* StorageService.swift */; };
-		BCD0D1B920A5FA0300C2A615 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD0D1AC20A5FA0300C2A615 /* SignInViewController.swift */; };
 		BCD0D1BA20A5FA0300C2A615 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD0D1AD20A5FA0300C2A615 /* ViewController.swift */; };
-		BCD0D1BB20A5FA0300C2A615 /* ViewControllerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD0D1AE20A5FA0300C2A615 /* ViewControllerTableViewCell.swift */; };
-		BCD0D1CD20A5FA1B00C2A615 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD0D1BD20A5FA1A00C2A615 /* AppDelegate.swift */; };
 		BCD0D1CE20A5FA1B00C2A615 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCD0D1BE20A5FA1A00C2A615 /* Assets.xcassets */; };
 		BCD0D1CF20A5FA1B00C2A615 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCD0D1BF20A5FA1A00C2A615 /* LaunchScreen.storyboard */; };
 		BCD0D1D020A5FA1B00C2A615 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCD0D1C120A5FA1A00C2A615 /* Main.storyboard */; };
-		BCD0D1D120A5FA1B00C2A615 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD0D1C320A5FA1A00C2A615 /* FeedViewController.swift */; };
 		BCD0D1D220A5FA1B00C2A615 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BCD0D1C420A5FA1A00C2A615 /* GoogleService-Info.plist */; };
 		BCD0D1D320A5FA1B00C2A615 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BCD0D1C520A5FA1A00C2A615 /* Info.plist */; };
-		BCD0D1D420A5FA1B00C2A615 /* LostAndFoundModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD0D1C620A5FA1A00C2A615 /* LostAndFoundModel.swift */; };
-		BCD0D1D520A5FA1B00C2A615 /* PhotoUploadDownload.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD0D1C720A5FA1A00C2A615 /* PhotoUploadDownload.swift */; };
-		BCD0D1D620A5FA1B00C2A615 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD0D1C920A5FA1A00C2A615 /* StorageService.swift */; };
 		BCD0D1D720A5FA1B00C2A615 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD0D1CA20A5FA1A00C2A615 /* SignInViewController.swift */; };
-		BCD0D1D820A5FA1B00C2A615 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD0D1CB20A5FA1A00C2A615 /* ViewController.swift */; };
 		BCD0D1D920A5FA1B00C2A615 /* ViewControllerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD0D1CC20A5FA1A00C2A615 /* ViewControllerTableViewCell.swift */; };
+		BCD0D1EC20A5FB9700C2A615 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCD0D1DC20A5FB9700C2A615 /* Assets.xcassets */; };
+		BCD0D1ED20A5FB9700C2A615 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCD0D1DD20A5FB9700C2A615 /* LaunchScreen.storyboard */; };
+		BCD0D1EE20A5FB9700C2A615 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCD0D1DF20A5FB9700C2A615 /* Main.storyboard */; };
+		BCD0D1F020A5FB9700C2A615 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BCD0D1E220A5FB9700C2A615 /* GoogleService-Info.plist */; };
+		BCD0D1F120A5FB9700C2A615 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BCD0D1E320A5FB9700C2A615 /* Info.plist */; };
+		BCD0D1F220A5FB9700C2A615 /* LostAndFoundModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD0D1E420A5FB9700C2A615 /* LostAndFoundModel.swift */; };
+		BCD0D1F320A5FB9700C2A615 /* PhotoUploadDownload.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD0D1E520A5FB9700C2A615 /* PhotoUploadDownload.swift */; };
 		D9F75247D429D9EE84D69078 /* Pods_testphotostocloudTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C57B06485CC847E93D6C7A /* Pods_testphotostocloudTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -77,7 +66,6 @@
 		85F2235582755417EB57511F /* Pods_testphotostocloud.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testphotostocloud.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		891A87DA206D433F00EADC89 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		893DE3BA208A9082003025BE /* ViewControllerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTableViewCell.swift; sourceTree = "<group>"; };
-		893DE3BE208A956E003025BE /* LostAndFoundModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LostAndFoundModel.swift; path = /Users/lauren/Desktop/boom/testphotostocloud/testphotostocloud/LostAndFoundModel.swift; sourceTree = "<absolute>"; };
 		894BB0992064290D00FBFF06 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		896FDA422069546D00457B3E /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = SOURCE_ROOT; };
 		89A07354205B0D4400DCACAC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -124,6 +112,20 @@
 		BCD0D1CA20A5FA1A00C2A615 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		BCD0D1CB20A5FA1A00C2A615 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BCD0D1CC20A5FA1A00C2A615 /* ViewControllerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTableViewCell.swift; sourceTree = "<group>"; };
+		BCD0D1DB20A5FB9700C2A615 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCD0D1DC20A5FB9700C2A615 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCD0D1DE20A5FB9700C2A615 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCD0D1E020A5FB9700C2A615 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCD0D1E120A5FB9700C2A615 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		BCD0D1E220A5FB9700C2A615 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BCD0D1E320A5FB9700C2A615 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCD0D1E420A5FB9700C2A615 /* LostAndFoundModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LostAndFoundModel.swift; sourceTree = "<group>"; };
+		BCD0D1E520A5FB9700C2A615 /* PhotoUploadDownload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoUploadDownload.swift; sourceTree = "<group>"; };
+		BCD0D1E720A5FB9700C2A615 /* StorageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		BCD0D1E820A5FB9700C2A615 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		BCD0D1E920A5FB9700C2A615 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BCD0D1EA20A5FB9700C2A615 /* ViewControllerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTableViewCell.swift; sourceTree = "<group>"; };
+		BCD0D1F820A5FCD300C2A615 /* LostAndFoundModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LostAndFoundModel.swift; sourceTree = "<group>"; };
 		D5C57B06485CC847E93D6C7A /* Pods_testphotostocloudTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testphotostocloudTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E12798757D40F452E85284ED /* Pods-testphotostocloud.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testphotostocloud.release.xcconfig"; path = "Pods/Target Support Files/Pods-testphotostocloud/Pods-testphotostocloud.release.xcconfig"; sourceTree = "<group>"; };
 		FF2232B0C51C1145FDAAA2E0 /* Pods-testphotostocloudUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testphotostocloudUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testphotostocloudUITests/Pods-testphotostocloudUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -189,9 +191,10 @@
 				89D00AAA2049B2810018EA4A /* Main.storyboard */,
 				893DE3BA208A9082003025BE /* ViewControllerTableViewCell.swift */,
 				891A87DA206D433F00EADC89 /* FeedViewController.swift */,
-				893DE3BE208A956E003025BE /* LostAndFoundModel.swift */,
+				BCD0D1F820A5FCD300C2A615 /* LostAndFoundModel.swift */,
 				BCD0D19E20A5FA0300C2A615 /* testphotostocloud */,
 				BCD0D1BC20A5FA1A00C2A615 /* testphotostocloud */,
+				BCD0D1DA20A5FB9700C2A615 /* testphotostocloud */,
 				894BB0992064290D00FBFF06 /* SignInViewController.swift */,
 				89D00AAD2049B2810018EA4A /* Assets.xcassets */,
 				89A073582062CDB000DCACAC /* PhotoUploadDownload.swift */,
@@ -295,6 +298,34 @@
 			isa = PBXGroup;
 			children = (
 				BCD0D1C920A5FA1A00C2A615 /* StorageService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BCD0D1DA20A5FB9700C2A615 /* testphotostocloud */ = {
+			isa = PBXGroup;
+			children = (
+				BCD0D1DB20A5FB9700C2A615 /* AppDelegate.swift */,
+				BCD0D1DC20A5FB9700C2A615 /* Assets.xcassets */,
+				BCD0D1DD20A5FB9700C2A615 /* LaunchScreen.storyboard */,
+				BCD0D1DF20A5FB9700C2A615 /* Main.storyboard */,
+				BCD0D1E120A5FB9700C2A615 /* FeedViewController.swift */,
+				BCD0D1E220A5FB9700C2A615 /* GoogleService-Info.plist */,
+				BCD0D1E320A5FB9700C2A615 /* Info.plist */,
+				BCD0D1E420A5FB9700C2A615 /* LostAndFoundModel.swift */,
+				BCD0D1E520A5FB9700C2A615 /* PhotoUploadDownload.swift */,
+				BCD0D1E620A5FB9700C2A615 /* Services */,
+				BCD0D1E820A5FB9700C2A615 /* SignInViewController.swift */,
+				BCD0D1E920A5FB9700C2A615 /* ViewController.swift */,
+				BCD0D1EA20A5FB9700C2A615 /* ViewControllerTableViewCell.swift */,
+			);
+			name = testphotostocloud;
+			sourceTree = "<group>";
+		};
+		BCD0D1E620A5FB9700C2A615 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BCD0D1E720A5FB9700C2A615 /* StorageService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -422,13 +453,18 @@
 				89A07355205B0D4400DCACAC /* GoogleService-Info.plist in Resources */,
 				BCD0D1B220A5FA0300C2A615 /* Main.storyboard in Resources */,
 				89D00AAE2049B2810018EA4A /* Assets.xcassets in Resources */,
+				BCD0D1ED20A5FB9700C2A615 /* LaunchScreen.storyboard in Resources */,
+				BCD0D1F120A5FB9700C2A615 /* Info.plist in Resources */,
 				BCD0D1D020A5FA1B00C2A615 /* Main.storyboard in Resources */,
 				BCD0D1D320A5FA1B00C2A615 /* Info.plist in Resources */,
 				BCD0D1B120A5FA0300C2A615 /* LaunchScreen.storyboard in Resources */,
+				BCD0D1F020A5FB9700C2A615 /* GoogleService-Info.plist in Resources */,
 				BCD0D1B020A5FA0300C2A615 /* Assets.xcassets in Resources */,
 				BCD0D1CF20A5FA1B00C2A615 /* LaunchScreen.storyboard in Resources */,
 				BCD0D1B520A5FA0300C2A615 /* Info.plist in Resources */,
 				89D00AAC2049B2810018EA4A /* Main.storyboard in Resources */,
+				BCD0D1EE20A5FB9700C2A615 /* Main.storyboard in Resources */,
+				BCD0D1EC20A5FB9700C2A615 /* Assets.xcassets in Resources */,
 				BCD0D1D220A5FA1B00C2A615 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -618,27 +654,11 @@
 				BCD0D1D720A5FA1B00C2A615 /* SignInViewController.swift in Sources */,
 				BCD0D1BA20A5FA0300C2A615 /* ViewController.swift in Sources */,
 				BCD0D1D920A5FA1B00C2A615 /* ViewControllerTableViewCell.swift in Sources */,
-				BCD0D1B920A5FA0300C2A615 /* SignInViewController.swift in Sources */,
-				89D00AA92049B2810018EA4A /* ViewController.swift in Sources */,
 				89A0735720606A0100DCACAC /* StorageService.swift in Sources */,
 				BCD0D1B320A5FA0300C2A615 /* FeedViewController.swift in Sources */,
-				BCD0D1B720A5FA0300C2A615 /* PhotoUploadDownload.swift in Sources */,
-				BCD0D1D820A5FA1B00C2A615 /* ViewController.swift in Sources */,
+				BCD0D1F320A5FB9700C2A615 /* PhotoUploadDownload.swift in Sources */,
+				BCD0D1F220A5FB9700C2A615 /* LostAndFoundModel.swift in Sources */,
 				89D00AA72049B2810018EA4A /* AppDelegate.swift in Sources */,
-				BCD0D1D520A5FA1B00C2A615 /* PhotoUploadDownload.swift in Sources */,
-				BCD0D1AF20A5FA0300C2A615 /* AppDelegate.swift in Sources */,
-				BCD0D1D420A5FA1B00C2A615 /* LostAndFoundModel.swift in Sources */,
-				893DE3BF208A956F003025BE /* LostAndFoundModel.swift in Sources */,
-				BCD0D1B820A5FA0300C2A615 /* StorageService.swift in Sources */,
-				BCD0D1D120A5FA1B00C2A615 /* FeedViewController.swift in Sources */,
-				BCD0D1D620A5FA1B00C2A615 /* StorageService.swift in Sources */,
-				BCD0D1BB20A5FA0300C2A615 /* ViewControllerTableViewCell.swift in Sources */,
-				894BB09A2064290D00FBFF06 /* SignInViewController.swift in Sources */,
-				891A87DB206D433F00EADC89 /* FeedViewController.swift in Sources */,
-				89A073592062CDB000DCACAC /* PhotoUploadDownload.swift in Sources */,
-				BCD0D1B620A5FA0300C2A615 /* LostAndFoundModel.swift in Sources */,
-				BCD0D1CD20A5FA1B00C2A615 /* AppDelegate.swift in Sources */,
-				893DE3BB208A9082003025BE /* ViewControllerTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -718,6 +738,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				BCD0D1C220A5FA1A00C2A615 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCD0D1DD20A5FB9700C2A615 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCD0D1DE20A5FB9700C2A615 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BCD0D1DF20A5FB9700C2A615 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCD0D1E020A5FB9700C2A615 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
