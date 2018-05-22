@@ -874,8 +874,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HC8H9475D8;
+				DEVELOPMENT_TEAM = L39URAH23R;
 				INFOPLIST_FILE = testphotostocloud/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CS.testphotostocloud;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -890,8 +891,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HC8H9475D8;
+				DEVELOPMENT_TEAM = L39URAH23R;
 				INFOPLIST_FILE = testphotostocloud/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CS.testphotostocloud;
 				PRODUCT_NAME = "$(TARGET_NAME)";

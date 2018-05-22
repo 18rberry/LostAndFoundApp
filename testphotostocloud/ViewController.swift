@@ -13,7 +13,7 @@ import GoogleSignIn
 
 
 
-class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate, GIDSignInUIDelegate, UITableViewDelegate, UITableViewDataSource {
+class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate, GIDSignInUIDelegate, UITableViewDelegate, UITableViewDataSource, UITextFieldDelegate {
     
     @IBOutlet weak var whoFoundUserText: UITextField!
     @IBOutlet weak var dateFoundUserText: UITextField!
@@ -30,11 +30,8 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
-        
+        dateFoundUserText.delegate = self as! UITextFieldDelegate
         foundItems = Database.database().reference().child("found items")
-        
         print()
         
         
@@ -43,6 +40,11 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 1
+    }
+    
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
